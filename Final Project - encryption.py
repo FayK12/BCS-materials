@@ -1,3 +1,5 @@
+#this code takes a message and encrypts it, and can take an encrypted message to decrypt it. The messages are linked to a 4-digit key
+#and are necessary for the encryption/decryption
 def encryptor (mode, message, key):
         mod_key = (key%26)+1  #a mod_key is modified based on the key entered by user
         coded_msg = str()
