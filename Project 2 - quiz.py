@@ -1,3 +1,5 @@
+#this is a 3-question quiz. The user is forced to do the quiz :P The quiz tracks the user's score.
+
 while (input("Are you ready for a quiz? Type 'Y' or 'N' only: ")=="N"):  #loop runs while user says N to doing the quiz.
     #if(input("Are you ready for a quiz? Type 'Y' or 'N'only: ")=="N"): #if stmt evaluates if input is Y or N to taking the quiz
         print("That's too bad. Let's try this again")
@@ -18,7 +20,7 @@ if(A1 == 3):
     score = score + 1
 #elif(input("A1)") == 2):
 elif(A1 == 2):
-    print("That's incorrect. The likelihood of him being President should have been the same likelihood as me eating a ham sandwich")
+    print("That's incorrect. The likelihood of him being President should have been the same likelihood as me eating a cockroach. Nonexistent")
 #elif(input("A1)") == 1):
 elif(A1 == 1):
      print("I applaud your attempt")
