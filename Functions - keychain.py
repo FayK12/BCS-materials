@@ -1,3 +1,5 @@
+#this code allwos the user to buy keychains, by adding and removing keychains from their order. The user can view their checkout order too
+
 def add_keychains(current_numberofkeychains):
     add = input("You have "+ str(current_numberofkeychains) + " keychains. How many to add? " )       #must convert to str for display  
     newnumberofchains = int(add) + current_numberofkeychains                                #must convert var add to int for addition      
