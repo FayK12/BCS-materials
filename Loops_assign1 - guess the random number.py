@@ -1,3 +1,6 @@
+#the user is given 7 tries to guess a randomly generated number. 
+#If the user doesn't guess the number on the 7th try, the number is revealed
+
 from random import randint
 num = randint(1,100) #the number for user to guess, randomly generated
 
