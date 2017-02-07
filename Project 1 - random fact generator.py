@@ -1,3 +1,4 @@
+#this code prints a random fact for the user
 name = input("Please input your name and press \"enter\"" " or \"return\" key: ")
 print("Welcome "+ name +". How old are you? ")
 age = int(input ())
