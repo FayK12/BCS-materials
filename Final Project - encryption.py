@@ -20,7 +20,7 @@ message = str() #this empty string will store the return value of encryptor. Nec
 print("~~~~~~WELCOME to the Encryptor!~~~~~~")
 print()
 print("NOTE: Only letters and spaces will be accepted as message input!")
-while (userchoice !=3) and (userchoice < 3):
+while (userchoice !=3): 
     print()
     print("========Main Menu=======")
     print("1. Encrypt a message")
@@ -53,7 +53,7 @@ while (userchoice !=3) and (userchoice < 3):
         print("Returning to the main menu..")
     elif userchoice ==3:
         print("Goodbye.")
-    elif (userchoice > 3):
-        print("Invalid choice. Farewell.")
+    else:
+        print("Invalid choice.")
     
 
