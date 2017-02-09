@@ -48,3 +48,5 @@ while (user_choice != 4) and (user_choice !=0):
         checkout(current_numberofkeychains,cost)
     elif (user_choice==0):
         print ("Goodbye.")              
+    else:
+        print("Invalid choice. Try again.")
