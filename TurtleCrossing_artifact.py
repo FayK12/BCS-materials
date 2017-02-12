@@ -68,20 +68,11 @@ jay.setpos(-250,-270)
 jay.write("Up,Down - forward, backward", False, align="left", font=("Arial Bold",8, "normal"))
 jay.setpos(0,-270)
 jay.write("Left,Right - turn left/right", False, align="left", font=("Arial Bold",8, "normal"))
-#fred.shape("turtle")
-#fred.color("blue")
-#fred.pu()
-#fred.speed(2)
-#fred.seth(260)
-#fred.goto(0,0)
-#fred.stamp()
 mike.setpos(-270,-230)
 mike.st()
 mike.shape("turtle")
 mike.color("purple")
 mike.turtlesize(1,1,2)
-#mike.goto(100,50)
-#mike.tilt(45)
 mike.stamp()
 mike.pu()
 
@@ -96,13 +87,9 @@ def left():
 def right():
     mike.right(90)
 
-
-
 '''if mike.setpos(250,250) ==True:
     fred.fd(50)
     fred.write("You did it!", False, align="left", font=("Calibri Bold",10, "normal"))'''
-
-#loadWindow.ontimer(move(mike),25)
 
 jay.home()
 jay.showturtle()
@@ -117,20 +104,7 @@ loadWindow.onkeypress(left,"Left")
 loadWindow.onkeypress(right,"Right")
 loadWindow.listen()
 
-
-
-'''player = mike.pos()
-player_y = mike.ycor()
-while player == (-270,-230): #and (player_y!=200):
-    xcor = random.randint(-250, 200)
-    ycor = random.randint(-180, 180)
-    jay.goto(xcor, 0)
-    jay.goto(0, ycor)
-    jeff.goto(-150, xcor)
-    jeff.goto(-150,-245)
-    #player = mike.pos()
-
-def end():
+'''def end():
     loadWindow.exitonclick()
 
 loadWindow.ontimer(end,250)'''
@@ -146,7 +120,7 @@ fay = mike.clone()
 fay.color("orange")
 fay.pu()
 fay.speed(1)
-while True: #player == (-270,-230): #and (player_y!=200)
+while True: #player == (220,180): #and (player_y!=200)
     xcor = random.randint(-250, 200)
     ycor = random.randint(-180, 180)
     jay.goto(xcor, 0)
@@ -165,5 +139,3 @@ while True: #player == (-270,-230): #and (player_y!=200)
     #if player == V:
     #    break
 loadWindow.exitonclick()
-
-#loadWindow.mainloop()
